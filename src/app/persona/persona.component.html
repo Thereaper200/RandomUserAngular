@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="foto">
+        <img src="{{persona.results[0].picture.large}}">
+    </div>
+    <div class="nombre">
+        <h2>Nombre:</h2>
+        <p>{{persona.results[0].name.first}}</p>
+    </div>
+    <div class="locacion">
+        <h2>Locacion:</h2>
+        <p>{{persona.results[0].location.country}}</p>
+        <p>{{persona.results[0].location.state}}</p>
+        <p>{{persona.results[0].location.city}}</p>
+    </div>
+    <div class="contacto">
+        <h2>Contacto:</h2>
+        <p>{{persona.results[0].email}}</p>
+        <p>{{persona.results[0].phone}}</p>
+        <p>{{persona.results[0].cell}}</p>
+    </div>
+</div>
